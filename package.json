@@ -1,0 +1,26 @@
+{
+  "name": "digitalcrafts_express_intro",
+  "version": "1.0.0",
+  "description": "\"\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/schmidtna/digitalcrafts_express_intro.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/schmidtna/digitalcrafts_express_intro/issues"
+  },
+  "homepage": "https://github.com/schmidtna/digitalcrafts_express_intro#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "lodash": "^4.17.10",
+    "nodemon": "^1.17.4",
+    "nunjucks": "^3.1.3",
+    "pg-promise": "^8.4.4"
+  }
+}
