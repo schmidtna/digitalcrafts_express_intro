@@ -44,7 +44,16 @@ app.get('/post/:slug', function (request, response) {
 //need a template, we send it variables called context, then the template gets rendered
 app.get('/home', function (request, response) {
     var name = request.query.name || 'World';
-    var context = {title: 'Hello', name: name};
+    var context = {
+        title: 'Hello',
+        name: name,
+        friends: [
+            {name: "Wiggles"},
+            {name: "Angie"},
+            {name: "Roland"},
+            {name: "Jacob"}
+        ]
+    };
 
     response.render('index.html', context);
 });

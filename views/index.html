@@ -7,6 +7,11 @@
     <title>{{ title }}</title>
 </head>
 <body>
- <h1>Hello {{ name }}</h1>   
+ <h1>Hello {{ name }}</h1> 
+   <ul>
+       {% for f in friends %}
+       <li>{{ f.name }}</li>
+       {% endfor %}
+   </ul>
 </body>
 </html>
