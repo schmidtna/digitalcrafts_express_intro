@@ -6,6 +6,8 @@ var nunjucks = require('nunjucks');
 
 var app = express();
 
+//autoescape is our injection protection, noCache true good for development
+//but best to have it off on your deployment
 nunjucks.configure('views', {
     autoescape: true,
     express: app,
